@@ -18,7 +18,7 @@ VEML file is saved in JSON format and consists of following structure:
 You can see the structure of VEML file in schema.json file in this repository, and also you can see examples in the examples folder.
 
 # Benefits
-Adoption of VEML brings many benefits, like:
+The implementation of VEML offers numerous advantages, such as:
 
 1. Standardization: VEML provides a standardized format for pre-processing and editing vector embeddings.
 2. Interoperability: It ensures better interoperability among different applications and systems that utilize vector embeddings.
