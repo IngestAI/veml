@@ -16,5 +16,14 @@ VEML file is saved in JSON format and consists of following structure:
 4. "meta": an array of meta information for every chunk, consists of strings, that have such strcture: key:value, ex. link:https://wikipedia.com
 
 You can see the structure of VEML file in schema.json file in this repository, and also you can see examples in the examples folder.
+
+# Benefits
+Adoption of VEML brings many benefits, like:
+
+1. Standardization: VEML provides a standardized format for pre-processing and editing vector embeddings.
+2. Interoperability: It ensures better interoperability among different applications and systems that utilize vector embeddings.
+3. Extensibility: Just like XML, VEML has the potential to be extensible, allowing users to add new tags and attributes to represent additional properties or metadata associated with the vector embeddings.
+5. Machine Readability: A well-defined markup language would also be easily parseable by ML, ensuring efficient processing and manipulation of vector embeddings by various software applications.
+
 ## VEML Editor
 We understand that developing a markup without an app that supports it, is not a good idea, so we created open-source tool called [Embedditor](https://embedditor.ai). You can download it from Github or Docker and run it on your local server to start working with the VEML files and editor.
