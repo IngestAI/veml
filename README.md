@@ -14,3 +14,5 @@ VEML file is saved in JSON format and consists of following structure:
 2. "tokens": an array of pure texts part that will be embedded
 3. "vectors": an array of embeddings for every chunk (can be empty if chunk was disabled)
 4. "meta": an array of meta information for every chunk, consists of strings, that have such strcture: key:value, ex. link:https://wikipedia.com
+
+You can see the structure of VEML file in schema.json file in this repository, and also you can see examples in the examples folder.
