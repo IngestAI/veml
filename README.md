@@ -3,13 +3,8 @@ Vector Embedding Markup Language - markup language designed specifically for ann
 ## How the idea was born
 Running [IngestAI](https://ingestai.io) project since February 2023 we faced a lot of issues from thousands of our users. Almost all of these issues were connected with the dataset structure and ability to influence on the vector search results.
 
-Main issues we collected from users:
-
--⚡ All users wish to have ability to manipulate with embedding process: to exclude some parts ot the text from embedding requests, etc.
--2. Almost every user wanted to see not just chunk text, beautyful HTML-markup for their AI search results.
--3. Most of users wanted to add additional information to chunks, like links, images, links to the YouTube videos, etc.
 ## VEML Markup
-VEML file is saved in JSON format and consists of following structure:
+VEML file is saved in .veml format and consists of following structure:
 1. "html": an array of pure HTML code of a chunks to make it presentable for the users.
 2. "tokens": an array of pure texts part that will be embedded
 3. "vectors": an array of embeddings for every chunk (can be empty if chunk was disabled)
