@@ -5,7 +5,7 @@ Running [IngestAI](https://ingestai.io) project since February 2023 we faced a l
 
 Main issues we collected from users:
 
-1. All users wish to have ability to manipulate with embedding process: to exclude some parts ot the text from embedding requests, etc.
+-⚡ All users wish to have ability to manipulate with embedding process: to exclude some parts ot the text from embedding requests, etc.
 2. Almost every user wanted to see not just chunk text, beautyful HTML-markup for their AI search results.
 3. Most of users wanted to add additional information to chunks, like links, images, links to the YouTube videos, etc.
 ## VEML Markup
