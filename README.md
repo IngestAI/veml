@@ -10,6 +10,14 @@ Vector Embedding Markup Language - markup language designed specifically for ann
 ## How the idea was born
 Running [IngestAI](https://ingestai.io) project since February 2023 we faced a lot of issues from thousands of our users. Almost all of these issues were connected with the dataset structure and ability to influence on the vector search results.
 
+# Join Our Community
+
+<a href="https://discord.gg/7SjCsTcZJ5" target="_blank">
+<img src="https://discordapp.com/api/guilds/978672019442905198/widget.png?style=banner3" alt="">
+</a>
+
+[![Stargazers repo roster for @embedditor/veml](https://reporoster.com/stars/embedditor/veml)](https://github.com/embedditor/veml/stargazers)
+
 ## VEML Markup
 VEML file is saved in .veml format and consists of following structure:
 1. "html": an array of pure HTML code of a chunks to make it presentable for the users.
