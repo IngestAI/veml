@@ -1,5 +1,12 @@
 # VEML
 Vector Embedding Markup Language - markup language designed specifically for annotating and structuring data related to vector embeddings. This could be used to represent, exchange, or store vector embeddings in a structured way that's easily readable by both humans and machines.
+
+<p align="center">
+    <a href="https://embedditor.ai"><b>Embedditor</b></a> •
+    <a href="https://discord.gg/7SjCsTcZJ5"><b>Discord</b></a> •
+    <a href="https://ingestai.io"><b>Try demo on IngestAI</b></a>
+</p>
+
 ## How the idea was born
 Running [IngestAI](https://ingestai.io) project since February 2023 we faced a lot of issues from thousands of our users. Almost all of these issues were connected with the dataset structure and ability to influence on the vector search results.
 
@@ -18,3 +25,6 @@ VEML file is saved in JSON format and consists of following structure:
 You can see the structure of VEML file in schema.json file in this repository, and also you can see examples in the examples folder.
 ## VEML Editor
 We understand that developing a markup without an app that supports it, is not a good idea, so we created open-source tool called [Embedditor](https://embedditor.ai). You can download it from Github or Docker and run it on your local server to start working with the VEML files and editor.
+## How VEML Markup looks like
+
+![1](https://embedditor.ai/images/embedditor_ui_05.png)
